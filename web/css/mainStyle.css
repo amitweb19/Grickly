@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* #21B8C6 */
+label{
+	margin-left: 20px;
+}
+a{
+	color: #21B8C6;
+	text-decoration: none;
+}
+input :focus, *:focus {
+    outline: 0;
+}
+.icons{
+	background-image: url('../img/icons.png');
+}
+.icon2{
+	background-position: 0 -300px;
+}
+.icon3{
+	background-position: -301px -302px;
+}
+.icon4{
+	background-position: -327px -302px;
+}
+body{
+	margin: 0px;
+	background: #f8f8f8;
+	/*background: #F0F3F6;*/
+}
+#header{
+	height: 120px;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #dedede;
+}
+#header > #wrapHeader{
+	width: 1200px;
+	margin: 0px auto;
+}
+#header > #wrapHeader > #header > #wrapHeaderWrap{
+	width: 1200px;
+	margin: 0px auto;
+}
+#header > #wrapHeader > #logo {
+	float:left;
+	width: 300px;
+	height: 120px;
+}
+#header > #wrapHeader > #logoinArea{
+	float:right;
+	width: 700px;
+	height: 120px;
+}
+#header > #wrapHeader > #logoinArea > #Box {
+	float: right;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox{
+	float: left;
+	padding:13px 0;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox .loginHieght{
+	float: left;
+	width: 450px;
+	height: 60px;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox .loginWidth1{
+	float: left;
+	width: 225px;
+	height: 60px;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox .loginWidth2{
+	float: left;
+	width: 225px;
+	height: 32px;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox input[type="checkbox"]{
+	height: 15px;
+	width: 15px;
+	margin-top: 7px;
+	size: 10px;
+	position: absolute;
+	color: #21B8C6;
+	font-size: 20px;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox .loginText{
+	color: #21B8C6;
+	font-weight: bold;
+	font-size: 17px;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox .loginNotifyText{
+	color: #21B8C6;
+	font-size: 14px;
+	cursor: pointer;
+	margin-top: 7px;
+	position: absolute;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox .loginIcon{
+	float: left;
+	width: 27px;
+	height: 27px;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox input[type="text"], #header > #wrapHeader > #logoinArea > #Box > #loginBox input[type="password"]{
+	float: left;
+	width: 160px;
+	height: 25px;
+	padding: 0 5px;
+	border: 1px solid #21B8C6;
+	border-radius: 0 5px 5px 0;
+	background: #F5FDFE;
+	color: #1EA6B0;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox input[type="text"]:focus, #header > #wrapHeader > #logoinArea > #Box > #loginBox input[type="password"]:focus{
+	background: #FFF;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox button{
+	height: 30px;
+	width: 70px;
+	background: #21B8C6;
+	border: 1px solid #21B8C6;
+	border-bottom: 3px solid #1EA6B0;
+	border-radius: 3px;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+}
+#header > #wrapHeader > #logoinArea > #Box > #loginBox button:active{
+	border: none;
+}
+#content{
+	width: 100%;
+	padding: 5% 0;
+}
+#content > #contentBase{
+	height: 460px;
+	width: 1200px;
+	margin: 50px auto;
+}
+
+#content > #contentBase > #signUp{
+	float: left;
+	height: 460px;
+	width: 514px;
+	color: #999;
+}
+#content > #contentBase > #signUp .inputFull{
+	float: left;
+	width: 514px;
+	height: 71px;
+	text-align: center;
+}
+#content > #contentBase > #signUp .inputFull .inputHalf{
+	float: left;
+	width: 255px;
+	font-weight: bold;
+}
+#content > #contentBase > #signUp input[type="text"],#content > #contentBase > #signUp input[type="password"]{
+	height: 30px;
+	width: 215px;
+	padding: 0 5px;
+	border-radius: 2px;
+	border: 1px solid #CCC;
+	color: #666;
+	background: #FFF;
+}
+#content > #contentBase > #signUp input[type="radio"]{
+	height: 17px;
+	width: 17px;
+	position: absolute;
+}
+#content > #contentBase > #signUp select{
+	height: 32px;
+	border-radius: 2px;
+	border: 1px solid #CCC;
+	color: #666;
+	background: #FFF;
+}
+#content > #contentBase > #signUp button{
+	height: 35px;
+	border: none;
+	width: 90px;
+	cursor: pointer;
+	color: #777;
+	text-shadow: 1px 1px 0px white;
+    background: #ffffff; /* Old browsers */  
+    background: -moz-linear-gradient(top, #ffffff 0%, #dfdfdf 100%); /* FF3.6+ */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dfdfdf)); /* Chrome,Safari4+ */  
+    background: -webkit-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* Chrome10+,Safari5.1+ */  
+    background: -o-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* Opera11.10+ */  
+    background: -ms-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* IE10+ */  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf',GradientType=0 ); /* IE6-9 */  
+    background: linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* W3C */  
+    -moz-border-radius: 3px;  
+    -webkit-border-radius: 3px;  
+    border-radius: 3px;  
+    -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4);  
+    padding: 6px 12px;
+}
+#content > #contentBase > #signUp button:hover{  
+    background: #ffffff; /* Old browsers */  
+    background: -moz-linear-gradient(top, #ffffff 0%, #eee 100%); /* FF3.6+ */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eee)); /* Chrome,Safari4+ */  
+    background: -webkit-linear-gradient(top, #ffffff 0%,#eee 100%); /* Chrome10+,Safari5.1+ */  
+    background: -o-linear-gradient(top, #ffffff 0%,#eee 100%); /* Opera11.10+ */  
+    background: -ms-linear-gradient(top, #ffffff 0%,#eee 100%); /* IE10+ */  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eee',GradientType=0 ); /* IE6-9 */  
+    background: linear-gradient(top, #ffffff 0%,#eee 100%); /* W3C */  
+    -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4);  
+}
+#content > #contentBase > #seperate{
+	float: left;
+	height: 250px;
+	margin: 125px 69px;
+	border-right: 2px dashed #ccc;
+}
+#content > #contentBase > #achievers{
+	float: left;
+	height: 460px;
+	width: 546px;
+}
+#content > #contentBase > #achievers > #img{
+	float: left;
+	margin:75px;
+	height: 300px;
+	width: 400px;
+}
+#content > #contentBase > #achievers > #img .icon1{
+	background-position: 0 0;
+}
+#footer{
+	height: 30px;
+	width: 100%;
+	background: #FFF;
+	border-top: 1px solid #dedede;
+	color: #21B8C6;
+	text-align: center;
+	padding-top: 15px;
+}
+.clear{
+	clear: both;
+}
+label,button,input[type="checkbox"],input[type="radio"],select{
+	cursor: pointer;
+}
+

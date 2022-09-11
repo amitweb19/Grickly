@@ -1,0 +1,306 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* #21B8C6 */
+label{
+	margin-left: 20px;
+}
+a{
+	color: #21B8C6;
+	text-decoration: none;
+}
+input :focus, *:focus {
+    outline: 0;
+}
+.icons{
+	background-image: url('../img/icons.png');
+}
+.icon2{
+	background-position: 0 -300px;
+}
+.icon3{
+	background-position: -301px -302px;
+}
+.icon4{
+	background-position: -327px -302px;
+}
+body{
+	margin: 0px;
+	background: #f8f8f8;
+	/*background: #F0F3F6;*/
+}
+#overlay {
+	display: none;
+	z-index: 2;
+	background: #000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+}
+#specialBox {
+	display: none;
+	position: relative;
+	z-index: 3;
+	margin: 150px auto 0px auto;
+	width: 90%; 
+	height: 600px;
+	padding: 30px;
+	background: #FFF;
+	color: #000;
+	border-radius: 50px;
+	border: 5px solid #21B8C6;
+}
+#box {
+	width: 100%;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+}
+#box > #header{
+	height: 120px;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #dedede;
+}
+#box > #header > #wrapHeader{
+	width: 1200px;
+	margin: 0px auto;
+}
+#box > #header > #wrapHeader > #box > #header > #wrapHeaderWrap{
+	width: 1200px;
+	margin: 0px auto;
+}
+#box > #header > #wrapHeader > #logo {
+	float:left;
+	width: 300px;
+	height: 120px;
+}
+#box > #header > #wrapHeader > #logoinArea{
+	float:right;
+	width: 700px;
+	height: 120px;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box {
+	float: right;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox{
+	float: left;
+	padding:13px 0;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox .loginHieght{
+	float: left;
+	width: 450px;
+	height: 60px;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox .loginWidth1{
+	float: left;
+	width: 225px;
+	height: 60px;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox .loginWidth2{
+	float: left;
+	width: 225px;
+	height: 32px;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox input[type="checkbox"]{
+	height: 15px;
+	width: 15px;
+	margin-top: 7px;
+	size: 10px;
+	position: absolute;
+	color: #21B8C6;
+	font-size: 20px;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox .loginText{
+	color: #21B8C6;
+	font-weight: bold;
+	font-size: 17px;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox .loginNotifyText{
+	color: #21B8C6;
+	font-size: 14px;
+	cursor: pointer;
+	margin-top: 7px;
+	position: absolute;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox .loginIcon{
+	float: left;
+	width: 27px;
+	height: 27px;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox input[type="text"], #box > #header > #wrapHeader > #logoinArea > #Box > #loginBox input[type="password"]{
+	float: left;
+	width: 160px;
+	height: 25px;
+	padding: 0 5px;
+	border: 1px solid #21B8C6;
+	border-radius: 0 5px 5px 0;
+	background: #F5FDFE;
+	color: #1EA6B0;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox input[type="text"]:focus, #box > #header > #wrapHeader > #logoinArea > #Box > #loginBox input[type="password"]:focus{
+	background: #FFF;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox button{
+	height: 30px;
+	width: 70px;
+	background: #21B8C6;
+	border: 1px solid #21B8C6;
+	border-bottom: 3px solid #1EA6B0;
+	border-radius: 3px;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+}
+#box > #header > #wrapHeader > #logoinArea > #Box > #loginBox button:active{
+	border: none;
+}
+#box > #content{
+	width: 100%;
+	padding: 5% 0;
+}
+#box > #content > #contentBase{
+	height: 460px;
+	width: 1200px;
+	margin: 50px auto;
+}
+#box > #content > #contentBase > #signUp{
+	float: left;
+	height: 460px;
+	width: 514px;
+	color: #999;
+}
+#box > #content > #contentBase > #signUp .inputFull{
+	float: left;
+	width: 514px;
+	height: 71px;
+	text-align: center;
+}
+#box > #content > #contentBase > #signUp .inputHalf{
+	float: left;
+	width: 255px;
+	font-weight: bold;
+}
+#box > #content > #contentBase > #signUp input[type="text"],#box > #content > #contentBase > #signUp input[type="password"]{
+	height: 30px;
+	width: 215px;
+	padding: 0 5px;
+	border-radius: 2px;
+	border: 1px solid #CCC;
+	color: #666;
+	background: #FFF;
+}
+#box > #content > #contentBase > #signUp input[type="radio"]{
+	height: 17px;
+	width: 17px;
+	position: absolute;
+}
+#box > #content > #contentBase > #signUp select{
+	height: 32px;
+	border-radius: 2px;
+	border: 1px solid #CCC;
+	color: #666;
+	background: #FFF;
+}
+#box > #content > #contentBase > #signUp .signupbtn{
+	height: 35px;
+	border: none;
+	width: 90px;
+	cursor: pointer;
+	color: #777;
+	text-shadow: 1px 1px 0px white;
+    background: #ffffff; /* Old browsers */  
+    background: -moz-linear-gradient(top, #ffffff 0%, #dfdfdf 100%); /* FF3.6+ */  
+    background: -webkit-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* Chrome10+,Safari5.1+ */  
+    background: -o-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* Opera11.10+ */  
+    background: -ms-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* IE10+ */  
+    background: linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* W3C */  
+    -moz-border-radius: 3px;  
+    -webkit-border-radius: 3px;  
+    border-radius: 3px;  
+    -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4);  
+    padding: 6px 12px;
+}
+#box > #content > #contentBase > #signUp .signupbtn:hover{  
+    background: #ffffff; /* Old browsers */  
+    background: -moz-linear-gradient(top, #ffffff 0%, #eee 100%); /* FF3.6+ */  
+    background: -webkit-linear-gradient(top, #ffffff 0%,#eee 100%); /* Chrome10+,Safari5.1+ */  
+    background: -o-linear-gradient(top, #ffffff 0%,#eee 100%); /* Opera11.10+ */  
+    background: -ms-linear-gradient(top, #ffffff 0%,#eee 100%); /* IE10+ */  
+    background: linear-gradient(top, #ffffff 0%,#eee 100%); /* W3C */  
+    -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4);  
+}
+#box > #content > #contentBase > #signUp .loginBtn{
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0 0.2em;
+  padding: 8px 15px 8px 46px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #FFF;
+}
+#box > #content > #contentBase > #signUp .loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+#box > #content > #contentBase > #signUp .loginBtn:focus {
+  outline: none;
+}
+#box > #content > #contentBase > #signUp .loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+#box > #content > #contentBase > #seperate{
+	float: left;
+	height: 250px;
+	margin: 125px 69px;
+	border-right: 2px dashed #ccc;
+}
+#box > #content > #contentBase > #achievers{
+	float: left;
+	height: 460px;
+	width: 546px;
+}
+#box > #content > #contentBase > #achievers > #img{
+	float: left;
+	margin:75px;
+	height: 300px;
+	width: 400px;
+}
+#box > #content > #contentBase > #achievers > #img .icon1{
+	background-position: 0 0;
+}
+#box > #footer{
+	height: 30px;
+	width: 100%;
+	background: #FFF;
+	border-top: 1px solid #dedede;
+	color: #21B8C6;
+	text-align: center;
+	padding-top: 15px;
+}
+.clear{
+	clear: both;
+}
+label,button,input[type="checkbox"],input[type="radio"],select{
+	cursor: pointer;
+}
